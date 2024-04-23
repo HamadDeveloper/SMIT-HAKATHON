@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="./quiz.css">
+</head>
+
+<body>
+   
+    <div class="container">
+        <h1>Welcome to the QuizWiz!</h1>
+        <h2>Basic MCQS</h2>
+
+
+        <form id="quizForm">
+
+            <div class="form-group">
+                <p>1. What does HTML stand for?</p>
+                <input type="radio" name="q1" value="a"> a) Hyper Text Markup Language<br>
+                <input type="radio" name="q1" value="b"> b) Hyperlinks and Text Markup Language<br>
+                <input type="radio" name="q1" value="c"> c) Home Tool Markup Language<br>
+                <input type="radio" name="q1" value="d"> d) Hyperlink Transfer Markup Language
+            </div>
+            <div class="form-group">
+                <p>2. Which of the following is NOT a programming language?</p>
+                <input type="radio" name="q2" value="a"> a) Java<br>
+                <input type="radio" name="q2" value="b"> b) HTML<br>
+                <input type="radio" name="q2" value="c"> c) Python<br>
+                <input type="radio" name="q2" value="d"> d) CSS
+            </div>
+            <div class="form-group">
+                <p>3. What does CSS stand for?</p>
+                <input type="radio" name="q3" value="a"> a) Creative Style Sheets<br>
+                <input type="radio" name="q3" value="b"> b) Computer Style Sheets<br>
+                <input type="radio" name="q3" value="c"> c) Cascading Style Sheets<br>
+                <input type="radio" name="q3" value="d"> d) Colorful Style Sheets
+            </div>
+            <div class="form-group">
+                <p>4. What does JS stand for?</p>
+                <input type="radio" name="q4" value="a"> a) JavaScript<br>
+                <input type="radio" name="q4" value="b"> b) Java Source<br>
+                <input type="radio" name="q4" value="c"> c) Java Script<br>
+                <input type="radio" name="q4" value="d"> d) Java
+            </div>
+            <div class="form-group">
+                <p>5. What is the output of the following code snippet?</p>
+                <pre>console.log(typeof NaN);</pre>
+                <input type="radio" name="q5" value="a"> a) undefined<br>
+                <input type="radio" name="q5" value="b"> b) number<br>
+                <input type="radio" name="q5" value="c"> c) NaN<br>
+                <input type="radio" name="q5" value="d"> d) string
+            </div>
+            <button type="submit" onclick="redirectToResult()">Submit</button>
+        </form>
+    </div>
+
+    <script src="./resultScript.js"></script>
+</body>
+
+</html>
